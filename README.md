@@ -27,7 +27,13 @@ The international data encryption algorithm abbreviated as IDEA is a symmetric b
 
 
 ## 6. MD5 Encryption Algorithm
-This protocol was purposely developed to offer data security as it can take inputs of arbitrary size to generate a 128-bit hash value output. Under this protocol, the encryption technique follows 5 phases where every phase features a predefined task. The five steps include #1, append padding (adding additional bits to the input) bits; #2, append length; #3, initializing MD buffer; #4, message processing; and #5, output. One notable advantage of MD5 is that the protocol allows the generation of a message digest using the initial message. Nevertheless, the protocol is relatively slow.
+This protocol was purposely developed to offer data security as it can take inputs of arbitrary size to generate a 128-bit hash value output. Under this protocol, the encryption technique follows 5 phases where every phase features a predefined task. The five steps include:
+1. Append padding (adding additional bits to the input) bits
+2. Append length
+3. Initializing MD buffer
+4. Message processing 
+5. Output.
+One notable advantage of MD5 is that the protocol allows the generation of a message digest using the initial message. Nevertheless, the protocol is relatively slow.
 
 
 ## 7. HMAC Encryption Algorithm
@@ -36,16 +42,14 @@ HMAC stands for hash message authentication code and it is applied to ascertain 
 ## 8. RSA Security
 This standard offers protection against cyber-attacks by detecting and responding to threats, preventing online fraud, management identification, et al. Its data encryption is founded on the application of both a public key as well as a private key. RSA algorithm generates the two keys simultaneously. When the computer is running on a secure website, the protocol generates a public key that is available publicly for data encryption. On the other hand, the encrypted text is decrypted using the private key. Sender identification is done with the aid of the public key.  
 
-** Brimonosky Project use RSA Security for encrypt your data **
+**Brimonosky Project use RSA Security for encrypt your data**
 
 ## Techology
 * Python 3
 * Django or Flask
 * Vue JS or native django front-end library
 * Circle CI or Travis CI for CI
-* 
 
 ## Authors
 * Brim
 * Egor
-
